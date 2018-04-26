@@ -4,7 +4,7 @@
 
 
 // Java packages
-package pers.Zhuangzhihan;
+package pers.Zhuangzhihan1234;
 import javax.swing.JOptionPane;
 
 public class Comparison {

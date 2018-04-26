@@ -2,7 +2,7 @@
 // 计算并打印三个整数的乘积
 
 // Java packages
-package pers.Zhuangzhihan;
+package pers.Zhuangzhihan1234;
 import javax.swing.JOptionPane;
 
 public class Product {

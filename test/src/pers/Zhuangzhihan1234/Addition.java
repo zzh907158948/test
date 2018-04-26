@@ -2,7 +2,7 @@
 // Addition Program that displays the sum of two numbers.
 
 // Java packages
-package pers.Zhuangzhihan;
+package pers.Zhuangzhihan1234;
 import javax.swing.JOptionPane;
 
 public class Addition {

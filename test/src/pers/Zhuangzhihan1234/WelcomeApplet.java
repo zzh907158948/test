@@ -2,7 +2,7 @@
 // A first applet in Java.
 
 //Java packages
-package pers.Zhuangzhihan;
+package pers.Zhuangzhihan1234;
 import java.awt.Graphics;	// import class Graphics
 import javax.swing.JApplet;	// import class JApplet
 

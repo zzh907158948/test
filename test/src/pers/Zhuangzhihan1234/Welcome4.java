@@ -2,7 +2,7 @@
 // Printing multiple lines in a dialog box.
 
 //Java packages
-package pers.Zhuangzhihan;
+package pers.Zhuangzhihan1234;
 import javax.swing.JOptionPane; // program uses JOptionpane
 
 public class Welcome4 {
