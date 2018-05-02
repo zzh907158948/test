@@ -28,7 +28,7 @@ public class Time1 extends Object{
 	
 	// convert to String in universal-time format
 	public String toUniversalString() {
-		DecimalFormat twoDigits = new DecimalFormat("0");
+		DecimalFormat twoDigits = new DecimalFormat("00");
 		
 		return twoDigits.format(hour) +	":" +
 		twoDigits.format(minute) + ":" + twoDigits.format(second);
