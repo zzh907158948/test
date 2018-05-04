@@ -5,8 +5,6 @@
 package pers.Zhuangzhihan8;
 import java.text.DecimalFormat;
 
-import org.omg.CORBA.WStringSeqHelper;
-
 public class Time1 extends Object{
 	private int hour; // 0-23
 	private int minute;// 0-59
@@ -19,7 +17,7 @@ public class Time1 extends Object{
 	}
 	
 	// set a new time value using universal time; perform 
-	// valifity checks on the data; set invalid values to zero
+	// Validity checks on the data; set invalid values to zero
 	public void setTime(int h, int m, int s) {
 		hour = ((h >= 0 && h < 24) ? h : 0);
 		minute = ((m >= 0 && m < 60) ? m : 0);

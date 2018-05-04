@@ -3,6 +3,7 @@
 
 package pers.Zhuangzhihan8;
 import javax.swing.JOptionPane;
+import pers.Zhuangzhihan8.*;
 
 public class TimeTest1 {
 	public static void main(String[] args) {
