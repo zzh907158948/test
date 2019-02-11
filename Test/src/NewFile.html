@@ -1,0 +1,28 @@
+<html>
+<head>
+    <script src="jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+<script type="text/javascript" >
+
+    alert(11);
+    $.ajax({
+
+        url: 'ttt.php',
+
+        type: 'POST',
+
+        data: {'name':'666'},
+
+        success: function(){// msg: php返回内容/* alert(修改成功); */window.location = window.location;
+            alert("成功了");
+        },
+
+        error:function() {// 提交失败}
+            alert("shi");
+        }
+    });
+</script>
+</body>
+</html>
