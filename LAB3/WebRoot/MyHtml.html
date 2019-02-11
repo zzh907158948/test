@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Input star sign</title>
+    <script>
+    	function checksubmit(){
+    		var name = document.getElementById("name").value;
+    		
+    		var reg = new RegExp("^[A-Z][A-z]{2,}$");
+    		if( name == ""){
+    		 	alert("Please input your name");
+    		 	return false;
+    		}
+    		else{
+    			if(reg.test(name))
+    			{
+    				return true
+    			}
+    			else
+    			{
+    			alert("Please input correct name!");
+    			return false;
+    			}
+    			
+    		}
+ 		
+    }
+    function displayHoroscope(gender, sign){
+    	if ( gender == "male"){
+    		if(sign <= 6)
+    		{
+    			document.getElementById("content").innerHTML = "You will have a long life."
+    			
+    		}
+    		else
+    			document.getElementById("content").innerHTML = "You will have a rich life.";
+    	
+    	}
+    	else
+    	{	
+    	if(sign <= 6)
+    		{
+    			document.getElementById("content").innerHTML = "You will find a tall handsome stranger."
+    			
+    		}
+    		else
+    			document.getElementById("content").innerHTML = "You will have six children.";
+    	}
+    	
+    
+    }
+    </script>
+  </head>
+  
+  <body>
+    <form method="post"  onsubmit="return checksubmit();" action ="./Horoscope">
+                                                                                          	
+    	<label>Input your Name:</label><input type="text" id="name" name="name" /><br><br>
+		<label>Input your sex:</label>	
+			<input type="radio" id="sex" name="sex" value="male" checked >Male
+			<input type="radio" id="sex" name="sex" value="female">Female<br><br>	 							
+        <label>Select your Zodiac sign:</label> 
+        	<select name="Zodiac">
+				<option value="1">Aries</option>
+				<option value="2">Taurus</option>
+				<option value="3">Gemini</option>
+				<option value="4">Cancer</option>
+				<option value="5">Leo</option>
+				<option value="6">Virgo</option>
+				<option value="7">Libra</option>
+				<option value="8">Scorpio</option>
+				<option value="9">Sagittarius</option>
+				<option value="10">Capricorn</option>
+				<option value="11">Aquarius</option>
+				<option value="12">Pisces</option>
+			</select>    <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="reset">                               	
+    </form> <br>
+  </body>
+</html>
